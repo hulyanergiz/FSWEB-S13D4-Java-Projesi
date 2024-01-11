@@ -54,8 +54,8 @@ distance()= 0.0
 ### Player Sınıfı
  
 * ```Player``` isimli bir sınıf oluşturunuz.
-* Sınıfın 3 tane değişkeni olmalı ```String name``` ```int healthPercentage``` ```Weapon weapon```
-* Weapon bir enum olmalı. istediğiniz değeri verebilirsiniz.
+* Sınıfın 3 tane değişkeni olmalı ```String name``` ```int healthPercentage``` ```com.workintech.model.Weapon weapon```
+* com.workintech.model.Weapon bir enum olmalı. istediğiniz değeri verebilirsiniz.
 * Tüm değişkenlere sadece bu sınıf içerisinden ulaşılabilinmeli.
 * Değişkenler için getter ve setter metodları kesinlikle TANIMLANMAMALI.
 * Sınıfın tek bir ```constructor``` metodu olmalı ve bu 3 değeri set edebilmeli.
